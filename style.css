@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 850px;
+    height: 100vh;
+    background-color: #577d9c;
+    background-image: url(./images/bg.jpg);
+    background-size: cover;
+    padding: 20px;
+}
+
+@font-face {
+    font-family: "Readex Pro Light";
+    src: url(./fonts/Readex_Pro/ReadexPro-Light.ttf) format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Readex Pro Bold";
+    src: url(./fonts/Readex_Pro/ReadexPro-Bold.ttf) format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Readex Pro SemiBold";
+    src: url(./fonts/Readex_Pro/ReadexPro-SemiBold.ttf) format('truetype');
+    font-style: normal;
+}
+
+.welcome {
+    font-family: "Readex Pro Bold";
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-family: "Readex Pro SemiBold";
+    font-size: 12px;
+    margin-bottom: 3px;
+    display: block;
+}
+
+input {
+    font-family: "Readex Pro Light";
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 0;
+    background-color: rgb(226, 226, 226);
+    padding: 5px 10px;
+    display: block;
+    width: 100%;
+
+}
+
+legend {
+    font-family: "Readex Pro SemiBold";
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+}
+
+fieldset {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+button {
+    padding: 10px;
+    font-family: "Readex Pro Light";
+    font-size: 12px;
+    background-color: rgb(187, 0, 115);
+    font-weight: bold;
+    color:white;
+    cursor: pointer;
+    border:0;
+    border-radius: 5px;
+    width: 40%;
+}
+
+button:hover {
+    background-color: rgb(189, 34, 129);
+}
+
+.two_column {
+    display: flex;
+    gap: 25px;
+    width: 100%;
+}
+
+.column {
+    width: 50%;
+}
+
+.column label, .column input {
+    width: 100%;
+}
+
+.theForm {
+    /*margin: 0 auto;*/
+    width: 65%; 
+    height: 100%;
+    background-color: white;
+    padding:25px;
+    border: 0;
+    border-radius: 10px;
+}
+
+/* Validation Styling*/

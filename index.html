@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up!</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <div class="theForm">
+            <h1 class="welcome">Welcome! Sign Up!</h1>
+            <form action="#" method="">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <div class="two_column">
+                        <div class="column">
+                            <label for="fn">First Name</label>
+                            <input type="text" id="fn" name="firstName" 
+                            placeholder="Enter First Name..." required>
+                        </div>
+                        <div class="column">
+                            <label for="ln">Last Name</label>
+                            <input type="text" id="ln" name="lastName" 
+                            placeholder="Enter Last Name..." required>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="email">Email address</label>
+                        <input type="email" name="email" id="email" 
+                        placeholder="e.g info@gamil.com" required>
+                    </div>
+                    <div>
+                        <label for="telNum">Phone Number</label>
+                        <input type="tel" name="phone" id="telNum" 
+                        placeholder="e.g 0789994444" pattern="0[0-9]{9}" required>
+                    </div>
+                    <div class="two_column">
+                        <div class="column">
+                            <label for="pass">Password</label>
+                            <input type="password" id="pass" name="password" 
+                            placeholder="Enter your password..." 
+                            minlength="5" maxlength="8" required>
+                        </div>
+                        <div class="column">
+                            <label for="confPass">Confirm Password</label>
+                            <input type="password" id="confPass" name="confiemPass" 
+                            placeholder="Enter Last Name..."
+                            minlength="5" maxlength="8" required>
+                        </div>
+                    </div>
+            
+                </fieldset>
+                <button type="submit">Create Account</button>
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>
