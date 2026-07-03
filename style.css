@@ -71,8 +71,7 @@ legend {
 }
 
 fieldset {
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 4px;
+    border: 0;
     padding: 10px;
     margin-bottom: 20px;
     display: flex;
@@ -112,7 +111,6 @@ button:hover {
 }
 
 .theForm {
-    /*margin: 0 auto;*/
     width: 65%; 
     height: 100%;
     background-color: white;
@@ -122,3 +120,11 @@ button:hover {
 }
 
 /* Validation Styling*/
+input:user-valid {
+    border-right: 8px solid rgb(43, 231, 90);
+}
+
+input:user-invalid {
+    border-right: 8px solid rgb(231, 43, 84);
+    border-bottom: 2px solid rgb(231, 43, 84);
+}
